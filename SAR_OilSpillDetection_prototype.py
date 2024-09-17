@@ -1,9 +1,9 @@
 import numpy as np
 import cv2
 import os
-from fuzzy import *
-from model import *
-from image import *
+from modules.fuzzy import *
+from modules.model import *
+from modules.image import *
 
 def main(image_path, model_path):
     fuzzy_ctrl = setup_fuzzy_logic()
