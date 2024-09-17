@@ -106,7 +106,7 @@ def main(image_path, model_path):
     model = load_model(model_path)
     image = preprocess_image(image_path)
     predictions = run_inference(model, image)
-    detected_objects = postprocess_predictions(predictions)
+    detected_objects = postprocess_predictions(predictions, threshold)
     
     filename = os.path.basename(image_path)
     file_id = os.path.splitext(filename)[0]
@@ -162,4 +162,5 @@ if __name__ == "__main__":
     image_path = input("Enter the path to the image: ")
     if image_path == "" : image_path = 'images/6.jpg'
     model_path = mp
+    threshold = 0.4
     main(image_path, model_path)
