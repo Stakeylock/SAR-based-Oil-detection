@@ -1,6 +1,6 @@
 to use the repo type in cmd/terminal(make sure you have git installed): 
 ![image](https://github.com/user-attachments/assets/fbfd06b6-52d6-46e0-a10c-e011f971ea2e)
-please note that, here "../git>" is just the folder named git, and the "git clone..." git represents the call of git to clone into
+please note that, here "..\git>" is just the folder named git, and the "git clone..." git represents the call of git to clone into
 
 to download the model follow this link and keep it in the model folder provided: https://drive.google.com/drive/folders/1iNL84-kUwoumSf227MgXK1_Yi-UYSxsg?usp=sharing
 
