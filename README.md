@@ -19,3 +19,5 @@ the output of the images that are given in the repo, when they are analysed we g
 ![image](https://github.com/user-attachments/assets/5e25ddbd-d090-4ec3-a035-9c3300d9e0ae)
 
 each image gives a prediction level, where the highest prediction level is taken for more safety.
+
+Feel free to check out the outputs of each image we have provided as input and all the predictions that are available in the above images as well as the output folder, you can always use the images provided to get the similar output. Feel free to change the threshold in the main function to get different amount of outputs based on confidence level.
