@@ -21,7 +21,7 @@ def main(image_path, model_path):
     original_image = cv2.cvtColor(original_image, cv2.COLOR_BGR2RGB)
 
     max_confidence = 0 
-    max_spill_likelihood = 0  #
+    max_spill_likelihood = 0 
     
 
     for i, (mask, confidence) in enumerate(detected_objects):
